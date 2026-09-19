@@ -14,7 +14,7 @@ app.add_middleware(
 
 @app.get("/")
 def read_root():
-    return {"status": "online", "service": "Cloud Mining Backend Engine Active"}
+    return {"status": "online", "message": "Cloud Mining Backend Active"}
 
 @app.get("/health")
 def health_check():
